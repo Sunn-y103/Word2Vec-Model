@@ -14,9 +14,7 @@ Word2Vec-Model/
 └── requirements.txt                  # Python dependencies
 ```
 
-## 🚀 Quick Start
-
-### Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -29,7 +27,7 @@ Word2Vec-Model/
    pip install -r requirements.txt
    ```
 
-### Usage
+## Usage
 
 **Load the pre-trained model and use it:**
 ```python
@@ -70,20 +68,20 @@ The model was trained on the [Amazon Sports and Outdoors Reviews dataset](https:
 
 ## 🛠️ Development
 
-### Retrain the Model
+## Retrain the Model
 
 If you want to retrain the model with different parameters:
 
 ```bash
-python scripts/model.py
+python model.py
 ```
 
-### Test the Model
+## Test the Model
 
 Run the evaluation script to see example outputs:
 
 ```bash
-python scripts/test.py
+python test.py
 ```
 
 ## 📋 Results
